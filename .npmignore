@@ -1,0 +1,14 @@
+# Don't publish development or system files
+node_modules/
+.env
+.DS_Store
+npm-debug.log*
+.vscode/
+.idea/
+coverage/
+dist/
+test/
+*.zip
+
+# Keep service keys private
+*.json
