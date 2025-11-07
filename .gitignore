@@ -36,3 +36,9 @@ logs/
 # Temporary files
 *.bak
 *.tmp
+
+# Include these explicitly
+!src/
+!README.md
+!LICENSE
+!package.json

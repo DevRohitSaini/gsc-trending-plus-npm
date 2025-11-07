@@ -1,0 +1,40 @@
+{
+  "name": "gsc-trending-plus",
+  "version": "1.0.0",
+  "description": "Fetch your most visited and trending pages from Google Search Console.",
+  "keywords": [
+    "google-search-console",
+    "search",
+    "console",
+    "analytics",
+    "seo",
+    "google",
+    "api",
+    "trending",
+    "posts"
+  ],
+  "homepage": "https://github.com/DevRohitSaini/gsc-trending-plus-npm#readme",
+  "bugs": {
+    "url": "https://github.com/DevRohitSaini/gsc-trending-plus-npm/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevRohitSaini/gsc-trending-plus-npm.git"
+  },
+  "license": "MIT",
+  "author": "Rohit saini",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": {
+      "import": "./src/index.js"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "googleapis": "^165.0.0"
+  }
+}

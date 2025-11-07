@@ -12,3 +12,9 @@ test/
 
 # Keep service keys private
 *.json
+
+# Include these explicitly
+!src/
+!README.md
+!LICENSE
+!package.json
