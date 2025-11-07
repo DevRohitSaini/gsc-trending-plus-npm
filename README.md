@@ -162,7 +162,7 @@ Use server-side secrets or environment variables to keep your key file safe.
 
 ## 🧰 Tech Stack
 
-- Node.js 22+  
+- Node.js 14+  
 - Google APIs Client Library  
 - ESM + async/await support
 
